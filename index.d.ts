@@ -127,7 +127,6 @@ declare module "react-native-fcm" {
         static isDirectChannelEstablished(): Promise<boolean>
         static getAPNSToken(): Promise<string>
 
-        static setNotificationCategories(categories: NotificationCategory[]): void;
     }
 
     export default FCM;
